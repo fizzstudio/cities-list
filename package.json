@@ -1,7 +1,11 @@
 {
-  "name": "cities-list",
+  "name": "@fizz/cities-list",
   "version": "1.0.3",
   "description": "A list, huge one, (~80K) of cities.",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.fizz.studio"
+  },
   "main": "index.json",
   "directories": {
     "test": "test"
@@ -11,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finnlp/cities-list.git"
+    "url": "git+https://github.com/fizzstudio/cities-list.git"
   },
   "keywords": [
     "cities",
@@ -22,7 +26,7 @@
   "author": "Alex Corvi <alex@arrayy.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/finnlp/cities-list.git/issues"
+    "url": "https://github.com/fizzstudio/cities-list.git/issues"
   },
-  "homepage": "https://github.com/finnlp/cities-list.git#readme"
+  "homepage": "https://github.com/fizzstudio/cities-list.git#readme"
 }
