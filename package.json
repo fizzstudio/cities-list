@@ -6,12 +6,20 @@
     "access": "restricted",
     "registry": "https://npm.fizz.studio"
   },
-  "main": "index.json",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "exports": "./index.js",
+  "types": "./index.d.ts",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/test"
+    "test": "mocha test/test",
+    "pubpatch": "npm version patch && npm publish",
+    "pubminor": "npm version minor && npm publish",
+    "pubmajor": "npm version major && npm publish"
   },
   "repository": {
     "type": "git",

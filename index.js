@@ -1,4 +1,4 @@
-{
+export default {
  "Aabenraa": 1,
  "Aach": 1,
  "Aachen": 1,
